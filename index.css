@@ -1,0 +1,335 @@
+.top-container {
+  background-color: rgba(255, 192, 203, 0.2);
+  height: 85vh;
+}
+.moblogo {
+  width: 25px;
+}
+.navbar-brand {
+  margin-left: 50px;
+  margin-right: 0px;
+  font-size: 2em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.nav-link {
+  font-size: 15px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40px;
+  color: black !important;
+}
+.sign-button {
+  float: right;
+  margin-right: 5%;
+  border-radius: 25px;
+  border-style: none;
+  padding: 5px 30px 5px 30px;
+  background: rgba(255, 0, 0, 0.8);
+}
+.sign-button a {
+  text-decoration: none;
+  color: white;
+}
+#navbarNav {
+  align-items: center;
+  justify-content: center;
+}
+.head_man {
+  float: right;
+  margin-right: 10%;
+}
+.head_man img {
+  width: auto;
+  height: auto;
+}
+.headpara {
+  margin-left: 8%;
+}
+
+#left-p1 {
+  color: black;
+  font-family: serif, Georgia;
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 10vh;
+  word-spacing: 8px;
+  margin-top: 3%;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+#left-p2 {
+  color: gray;
+}
+.getstarted {
+  margin-right: 5%;
+  margin-top: 30px;
+  border-radius: 25px;
+  border-style: none;
+  padding: 10px 30px 10px 30px;
+  background: rgba(255, 0, 0, 0.6);
+}
+.getstarted a {
+  text-decoration: none;
+  color: white;
+}
+.image-logo {
+  float: right;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 0 8px 8px 0 rgba(255, 192, 203, 1);
+  border-style: none;
+  z-index: 5;
+  clear: both;
+  margin-top: -5px;
+  padding: 30px;
+}
+.image-logo img {
+  width: 150px;
+  margin-right: 50px;
+}
+
+.middle-container::before {
+  position: absolute;
+  content: " ";
+  display: block;
+  z-index: -1;
+  width: 70%;
+  height: 35rem;
+  top: 55rem;
+  right: 0rem;
+  border-top-left-radius: 30%;
+  background-color: rgb(255, 192, 203, 0.3);
+}
+.middle-p {
+  float: left;
+  margin-left: 10%;
+  margin-top: 7%;
+  color: black;
+  font-family: serif, Georgia;
+  font-weight: bolder;
+  font-size: 3rem;
+  clear: both;
+}
+.cards {
+  width: 50vh;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px 1px #888888;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.cards img{
+  width: 60px;
+  display: flex;
+  clear: both;
+  padding-bottom: 20px;
+}
+.cards span{
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.cards a{
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.2);
+}
+.middle-cards {
+  float: right;
+  margin-right: 50px;
+  margin-top: 120px;
+}
+.middle-cards2 {
+  float: right;
+  margin-right: 50px;
+  margin-top: 18%;
+}
+.middle-cards3 {
+  float: right;
+  margin-right: 50px;
+  margin-top: 18%;
+}
+.industries {
+  clear: both;
+  text-align: center;
+  align-content: center;
+}
+.industries p {
+  display: inline-block;
+  margin-right: 2%;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px 1px #888888;
+  padding: 15px;
+  margin-top: 100px;
+}
+.industries button{
+  width: 55px;
+  height: 55px;
+  border-style: solid;
+  border-color: rgba(55, 55, 55, 0.4);
+  background-color: white;
+  border-radius:50%;
+  border-width: 3px;
+  margin-right: 2%;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: rgba(55, 55, 55, 0.4);
+}
+.company p{
+  width: 230px;
+  margin-top: 100px;
+}
+.industries img{
+  width: 200px;
+  height: 30px;
+}
+.industries p:first-child {
+  margin-left: 10%;
+}
+.teams-container {
+  position: relative;
+  margin-top: 10%;
+}
+.teams-container::before {
+  position: absolute;
+  content: " ";
+  display: block;
+  z-index: -1;
+  width: 50%;
+  height: 30rem;
+  top: 5rem;
+  right: 0;
+  border-top-left-radius: 30%;
+  background-color: rgb(255, 192, 203, 0.3);
+}
+.teams-container img {
+  display: block;
+  width: 160px;
+  border-radius: 50%;
+}
+.teams-container figure{
+  margin: 50px;
+}
+.teams-container figcaption{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.teams-container figcaption span{
+  font-weight: lighter;
+  color: gray;
+  font-size: 1.1rem;
+}
+.team-images1 {
+  position: absolute;
+  top: -60px;
+  right: 0;
+}
+.team-images2 {
+  position: absolute;
+  top: 35px;
+  right: 300px;
+}
+.team-images3 {
+  position: absolute;
+  top: 120px;
+  right: 600px;
+}
+.team-images4 {
+  position: absolute;
+  top: 25px;
+  right: 900px;
+}
+.blog {
+  position: relative;
+  margin-top: 50%;
+}
+.blog-cards {
+  position: relative;
+  display: flex;
+  clear: both;
+  align-items: center;
+  justify-content: center;
+}
+.blog-items{
+  width: 50vh;
+  height: 65vh;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 8px 1px #888888;
+  padding: 40px 50px 20px 50px;
+  margin: 50px;
+}
+.blog-cards a{
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.2);
+}
+.blog-cards span{
+  position: relative;
+  clear: both;
+}
+.blog-cards img{
+  width: 250px;
+  height: 150px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.blog-heading{
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.subscribers p {
+  text-align: center;
+}
+.subscribe {
+  margin-top: 5%;
+  color: black;
+  font-family: serif, Georgia;
+  font-weight: bolder;
+  font-size: 3rem;
+  clear: both;
+}
+.buttonIn {
+  width: 60vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#enter {
+  background-color: white;
+  box-shadow: 0px 0px 8px 1px #888888;
+  border-style: none;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 25px;
+  width: 100%;
+  outline: none;
+  border-radius: 50px;
+}
+#btn-subscribe {
+  position: absolute;
+  margin-right: 20px;
+  border-radius: 50px;
+  right: 0px;
+  padding: 8px 25px 8px 25px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.7);
+}
+footer{
+    height: 40vh;
+    background-color: pink;
+}
+.list-unstyled li{
+  padding: 10px 0px 10px 0px;
+}
+.footer-heylead{
+  margin-left: 50px;
+}
