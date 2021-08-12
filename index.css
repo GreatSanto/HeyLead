@@ -1,3 +1,9 @@
+body{
+  margin: 0;
+}
+*{
+  box-sizing:border-box;
+}
 .top-container {
   background-color: rgba(255, 192, 203, 0.2);
   height: 85vh;
@@ -6,13 +12,13 @@
   width: 25px;
 }
 .navbar-brand {
-  margin-left: 50px;
-  margin-right: 0px;
-  font-size: 2em;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 2.2vw;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .nav-link {
-  font-size: 15px;
+  font-size: 2.5vh;
   display: block;
   align-items: center;
   justify-content: center;
@@ -40,7 +46,7 @@
   margin-right: 10%;
 }
 .head_man img {
-  width: auto;
+  max-width: 100%;
   height: auto;
 }
 .headpara {
@@ -51,7 +57,7 @@
   color: black;
   font-family: serif, Georgia;
   font-weight: bolder;
-  font-size: 3rem;
+  font-size: 3vw;
   line-height: 10vh;
   word-spacing: 8px;
   margin-top: 3%;
@@ -80,14 +86,16 @@
   border-bottom-left-radius: 20px;
   box-shadow: 0 8px 8px 0 rgba(255, 192, 203, 1);
   border-style: none;
-  z-index: 5;
+  z-index: 2;
   clear: both;
   margin-top: -5px;
-  padding: 30px;
+  padding: 1.5%;
+  width: 55%;
 }
 .image-logo img {
-  width: 150px;
-  margin-right: 50px;
+  display: inline-block;
+  width: 20%;
+  margin-left: 4%;
 }
 
 .middle-container::before {
@@ -104,16 +112,18 @@
 }
 .middle-p {
   float: left;
-  margin-left: 10%;
+  margin-left: 10rem;
   margin-top: 7%;
   color: black;
   font-family: serif, Georgia;
   font-weight: bolder;
-  font-size: 3rem;
+  font-size: 3vw;
   clear: both;
 }
+.middle-container div{
+  width: 25%;
+}
 .cards {
-  width: 50vh;
   background-color: white;
   border-radius: 10px;
   box-shadow: 0px 0px 8px 1px #888888;
@@ -121,17 +131,17 @@
   margin-bottom: 50px;
 }
 .cards img{
-  width: 60px;
+  width: 20%;
   display: flex;
   clear: both;
   padding-bottom: 20px;
 }
 .cards span{
-  font-size: 1rem;
+  font-size: 1.1vw;
   font-weight: bolder;
 }
 .cards a{
-  font-size: 35px;
+  font-size: 2.5vw;
   color: rgba(0, 0, 0, 0.2);
 }
 .middle-cards {
@@ -152,7 +162,6 @@
 .industries {
   clear: both;
   text-align: center;
-  align-content: center;
 }
 .industries p {
   display: inline-block;
@@ -165,7 +174,7 @@
   margin-top: 100px;
 }
 .industries button{
-  width: 55px;
+  width: 4%;
   height: 55px;
   border-style: solid;
   border-color: rgba(55, 55, 55, 0.4);
@@ -173,17 +182,18 @@
   border-radius:50%;
   border-width: 3px;
   margin-right: 2%;
-  font-size: 1.5rem;
+  font-size: 1.8vw;
   font-weight: bolder;
   color: rgba(55, 55, 55, 0.4);
 }
 .company p{
-  width: 230px;
+  width: 15%;
+  height: 70px;
   margin-top: 100px;
 }
 .industries img{
-  width: 200px;
-  height: 30px;
+  width: 80%;
+  height: 50px;
 }
 .industries p:first-child {
   margin-left: 10%;
@@ -191,6 +201,7 @@
 .teams-container {
   position: relative;
   margin-top: 10%;
+  max-width: 100%;
 }
 .teams-container::before {
   position: absolute;
@@ -206,21 +217,25 @@
 }
 .teams-container img {
   display: block;
-  width: 160px;
+  width: 75%;
   border-radius: 50%;
+  transition: width 1s;
+}
+.teams-container img:hover{
+  width: 80%;
 }
 .teams-container figure{
-  margin: 50px;
+  margin-bottom: 50px;
 }
 .teams-container figcaption{
   text-align: center;
   font-weight: bolder;
-  font-size: 1.2rem;
+  font-size: 1.2vw;
 }
 .teams-container figcaption span{
   font-weight: lighter;
   color: gray;
-  font-size: 1.1rem;
+  font-size: 1vw;
 }
 .team-images1 {
   position: absolute;
@@ -246,6 +261,11 @@
   position: relative;
   margin-top: 50%;
 }
+.detail-blog{
+  font-size: 1vw;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .blog-cards {
   position: relative;
   display: flex;
@@ -254,8 +274,8 @@
   justify-content: center;
 }
 .blog-items{
-  width: 50vh;
-  height: 65vh;
+  width: 23%;
+  height: auto;
   background-color: white;
   border-radius: 20px;
   box-shadow: 0px 0px 8px 1px #888888;
@@ -263,7 +283,7 @@
   margin: 50px;
 }
 .blog-cards a{
-  font-size: 35px;
+  font-size: 2vw;
   color: rgba(0, 0, 0, 0.2);
 }
 .blog-cards span{
@@ -271,13 +291,13 @@
   clear: both;
 }
 .blog-cards img{
-  width: 250px;
+  width: 100%;
   height: 150px;
   border-radius: 20px;
   margin-bottom: 30px;
 }
 .blog-heading{
-  font-size: 1rem;
+  font-size: 1.2vw;
   font-weight: bolder;
 }
 .subscribers p {
@@ -288,11 +308,11 @@
   color: black;
   font-family: serif, Georgia;
   font-weight: bolder;
-  font-size: 3rem;
+  font-size: 3vw;
   clear: both;
 }
 .buttonIn {
-  width: 60vh;
+  width: 40%;
   position: relative;
   display: flex;
   align-items: center;
@@ -305,7 +325,7 @@
   background-color: white;
   box-shadow: 0px 0px 8px 1px #888888;
   border-style: none;
-  font-size: 1em;
+  font-size: 1vw;
   font-family: Arial, Helvetica, sans-serif;
   padding: 25px;
   width: 100%;
@@ -314,6 +334,7 @@
 }
 #btn-subscribe {
   position: absolute;
+  width: 25%;
   margin-right: 20px;
   border-radius: 50px;
   right: 0px;
@@ -324,12 +345,43 @@
   background-color: rgba(255, 0, 0, 0.7);
 }
 footer{
-    height: 40vh;
+    height: auto;
     background-color: pink;
 }
 .list-unstyled li{
-  padding: 10px 0px 10px 0px;
+  padding: 2% 0 2% 0;
 }
 .footer-heylead{
-  margin-left: 50px;
+  margin-left: 5%;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 890px){
+  .sign-button{
+    display: none;
+  }
+  .blog-cards{
+    display: block;
+    margin-top: 50px;
+  }
+  .blog-items{
+    min-width: 70%;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  .detail-blog{
+    display: none;
+  }
+  .teams-container figure{
+    width: 30%;
+    margin: 5%;
+  }
+  .teams-container figcaption{
+    display: none;
+  }
+  .buttonIn{
+    width: 80%;
+  }
 }
